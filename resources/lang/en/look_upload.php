@@ -1,0 +1,22 @@
+<?php
+return[
+    'look_upload' => 'Look upload',
+    'look_edit' => 'Edit look',
+    'picture' => 'Picture',
+    'choose_pic' => 'Choose a picture',
+    'title' => 'Title',
+    'look_details' => 'Details',
+    'items' => 'Items',
+    'select_item' => 'Select an item',
+    'publish' => 'Publish',
+    'cancel' => 'Cancel',
+    'update' => 'Update',
+    'delete' => 'Delete',
+    'add_item' => '+ Add Item',
+    'image_required' => 'The image field is required.',
+    'title_required' => 'The title field is required.',
+    'description_required' => 'The description field is required.',
+    'item_required' => 'At lest one item is required.',
+    'gender_required' => 'Gender field is required.',
+    'max_words' => '※2000 letters max',
+];

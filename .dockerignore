@@ -1,0 +1,8 @@
+.dockerignore
+./logs
+./tmp
+.git
+*Dockerfile*
+*docker-compose*
+./vendor
+./node_modules

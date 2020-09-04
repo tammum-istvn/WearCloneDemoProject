@@ -1,0 +1,20 @@
+<?php
+return[
+    'look_upload' => 'Đăng bài',
+    'look_edit' => 'Sửa bài đăng',
+    'picture' => 'Hình ảnh',
+    'choose_pic' => 'Chọn ảnh',
+    'title' => 'Tiêu đề',
+    'look_details' => 'Chi tiết trang phục',
+    'items' => 'Sản phẩm',
+    'select_item' => 'Chọn sản phẩm',
+    'publish' => 'Đăng bài',
+    'cancel' => 'Hủy bỏ',
+    'update' => 'Cập nhật',
+    'delete' => 'Xóa bài',
+    'add_item' => '+ Thêm sản phẩm',
+    'image_required' => 'Bạn phải chọn ảnh',
+    'intro_required' => 'Bạn phải viết lời giới thiệu',
+    'item_required' => 'Bạn phải chọn một sản phẩm',
+    'max_words' => '※Tối đa 2000 từ',
+];

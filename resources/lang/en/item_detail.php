@@ -1,0 +1,20 @@
+<?php
+return[
+    'shop' => 'Shop',
+    'web' => 'Web',
+    'address' => 'Address',
+    'same_store'=>'From the same store',
+    'chat_btn'=>'Chat with shop',
+    'review' => 'review',
+    'size' => 'Size',
+    'color' => 'Color',
+    'brand' => 'Brand',
+    'quantity' => 'quantity',
+    'add_cart' => 'Add to cart',
+    'added' => 'Item added to cart!',
+    'size_required' => 'Please select a size',
+    'color_required' => 'Please select a color',
+    'similer' => 'Similer items',
+    'out_of_stock' => 'Out of stock',
+    'title' => 'Item information',
+];

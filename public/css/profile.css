@@ -1,0 +1,440 @@
+.profile-container {
+    font-family: "Helvetica Neue","Helvetica","Lucida Grande","Arial","Verdana","sans-serif";
+    background-color: #fff;
+}
+.container .row {
+    margin: 0 -10px;
+}
+.profile-header {
+    padding: 18px 0 30px 0;
+    background: #fff;
+    min-height: 133px;
+    /*border-bottom: 1px #ddd solid;*/
+    position: relative;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.profile-header-left {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+.profile-header-right {
+    padding-left: 0;
+    padding-right: 0;
+}
+.profile-header-right .col-12 {
+    padding: 0;
+}
+.profile-header-left .profile-avatar img {
+    border-radius: 50%;
+    border: 1px #ddd solid;
+    vertical-align: bottom;
+    object-fit: cover;
+    width: 148px;
+    height: 148px;
+    object-position: top;
+}
+.profile-header-left .profile-follow {
+    margin: 18px auto 0 auto;
+    text-align: center;
+}
+.profile-header-left .profile-follow a:hover {
+    text-decoration: none;
+}
+.basic-info h1 {
+    font-size: 24px;
+    line-height: 1.4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.profile-other-info {
+    margin: 1px 0 0 0;
+}
+.profile-other-info ul {
+    padding: 4px 0 0 0;
+    text-transform: uppercase;
+    display: flex;
+}
+.profile-other-info ul li {
+    float: left;
+    font-size: 12px;
+    margin: 0 0 0 8px;
+    position: relative;
+}
+.profile-other-info ul li:first-child {
+    margin-left: 0;
+}
+.profile-other-info ul li:not(:first-child):before {
+    content: '';
+    margin: 0 8px 0 0;
+    height: 12px;
+    width: 1px;
+    background: #ddd;
+    display: inline-block;
+    vertical-align: -1px;
+}
+.profile-intro {
+    font-size: 13px;
+}
+.profile-intro h2.label {
+    font-size: 12px;
+    line-height: 1.9;
+    padding-right: 0;
+    padding-left: 10px;
+}
+.profile-intro p {
+    padding-left: 0;
+    line-height: 1.7;
+    text-align: left;
+    margin-left: -30px;
+}
+.favourite-brand h2.label {
+    font-size: 11px;
+    text-align: center;
+    width: 94px;
+    float: left;
+    line-height: 1.4;
+    margin: 8px 0 0 -25px;
+}
+.favourite-brand ul {
+    margin: 2px 0 0 -6px;
+}
+.favourite-brand ul li {
+    font-size: 12px;
+    text-align: center;
+    float: left;
+    margin: 6px 0 0 6px;
+}
+.favourite-brand ul li a {
+    display: block;
+    background: #fff;
+    color: #333;
+    border: 1px #e2e2e2 solid;
+    padding: 6px 12px 6px 12px;
+    line-height: 1.2;
+    border-radius: 2px;
+    user-select: none;
+    cursor: default;
+}
+.favourite-brand ul li a:hover {
+    text-decoration: none;
+}
+
+.profile-menu {
+    padding: 10px 0 0 0;
+    /*margin: 0 -10px;*/
+}
+.profile-menu nav {
+    background: #fff;
+    border: 1px #ddd solid;
+    border-radius: 3px;
+}
+.profile-menu-left {
+    float: left;
+}
+.profile-menu-right {
+    float: right;
+}
+.profile-menu ul li {
+    width: 120px;
+    float: left;
+    text-align: center;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Verdana", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+.profile-menu ul li a {
+    display: block;
+    color: #333;
+    padding: 8px 0 8px 0;
+}
+.profile-menu nav .profile-menu-left li {
+    border-right: 1px #ddd solid;
+    height: 100%;
+}
+.profile-menu ul li a:hover {
+    background: #f5f5f5;
+    text-decoration: none;
+}
+.profile-menu ul li.current a {
+    background: #333;
+    color: #fff;
+    cursor: default;
+}
+.profile-menu nav .profile-menu-left li:first-child a {
+    border-radius: 3px 0 0 3px;
+}
+.profile-menu nav .profile-menu-left li:last-child a {
+    border-radius: 0 3px 3px 0;
+}
+.profile-menu ul li span {
+    display: block;
+    font-size: 10px;
+    font-weight: normal;
+}
+.profile-menu .profile-menu-right li {
+    border-left: 1px #ddd solid;
+    height: 100%;
+}
+.profile-content {
+    margin: 18px 0 0 0;
+}
+.profile-content .item-card-wrapper,
+.profile-content .user-card-wrapper {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.profile-content .item-card-wrapper .card,
+.profile-content .user-card-wrapper .card {
+    border: 1px #ddd solid;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: none;
+}
+.item-container-top {
+    position: relative;
+    width: 100%;
+    height: 310px;
+    overflow: hidden;
+}
+.item-container-top a {
+    display: block;
+    text-decoration: none;
+}
+.item-container-top a .item-img {
+    transition: opacity ease-out 0.15s;
+    border-radius: 2px 2px 0 0;
+    width: 100%;
+    height: 310px;
+    opacity: 1;
+    object-fit: cover;
+    object-position: left;
+}
+.item-container-top a .item-img:hover {
+    opacity: 0.7;
+}
+.item-container-top .post-date {
+    color: #fff;
+    font-size: 11px;
+    text-shadow: 1px 1px 1.5px rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 8px;
+    left: 9px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.35s ease;
+}
+
+.item-container-top:hover .overlay {
+    background: rgba(0, 0, 0, .5);
+}
+.item-container-top:hover .button-on-pic {
+    opacity: 1;
+}
+.button-on-pic {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+.button-on-pic a {
+    padding: 12px 14px;
+    color: white;
+    border: solid 2px white;
+    z-index: 100;
+    margin: 0 12px;
+    text-decoration: none;
+    display: inline-block;
+}
+.item-container-bottom {
+    padding: 6px 0 9px 0;
+    border-top: 1px #ddd solid;
+}
+.user-container {
+    display: table;
+    width: 100%;
+    padding: 23px 0 17px 23px;
+    height: 120px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px #ddd solid;
+}
+.user-container-left {
+    float: left;
+    width: 20%;
+}
+.profile-content .user-container-left a .follow-avatar:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+.user-container-right {
+    float: right;
+    width: 80%;
+    padding-left: 20px;
+}
+h3.user-name {
+    font-size: 15px;
+    line-height: 1.2;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+.user-name a {
+    color: #000;
+}
+.user-name a span:hover {
+    text-decoration: underline;
+}
+.user-name a span {
+    display: block;
+    float: left;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 2px 0 2px 0;
+}
+ul.user-info {
+    color: #888;
+    width: 248px;
+    letter-spacing: -.40em;
+    margin: -3px 0 0 0;
+    position: relative;
+    clear: both;
+}
+ul.user-info li {
+    display: inline-block;
+    padding: 0 5px 0 0;
+    font-size: 11px;
+    letter-spacing: normal;
+    margin: 0;
+}
+ul.user-info li:after {
+    content: '|';
+    margin: 0 0 0 5px;
+    font-size: 11px;
+}
+ul.user-info li:last-child:after {
+    content: '';
+}
+ul.meta {
+    margin: 2px 0 0 0;
+    width: 200px;
+    position: relative;
+    clear: both;
+}
+ul.meta li {
+    float: left;
+    font-size: 10px;
+    margin: 0 10px 0 0;
+    letter-spacing: 0.02em;
+    padding: 0;
+}
+ul.meta li a {
+    color: #333;
+    display: block;
+}
+ul.meta li a span {
+    padding: 0 2px 0 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 990px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 100%;
+    }
+    .profile-header-right .col-12 {
+        padding: 0 10px;
+    }
+    .profile-intro p {
+        margin-left: 0;
+    }
+    .item-container-top {
+        height: 230px;
+    }
+    .item-container-top a .item-img {
+        height: 230px;
+    }
+    .button-on-pic {
+        top: 20%;
+    }
+    .button-on-pic a {
+        width: 55%;
+        margin: 6px 12px;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+    .profile-header-right .col-12 {
+        padding: 0 10px;
+        margin-top: 5px;
+    }
+    .profile-container .row {
+        text-align: center;
+    }
+    .profile-other-info ul li {
+        font-size: 9px;
+    }
+    .favourite-brand ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .profile-other-info ul {
+        display: flex;
+        justify-content: center;
+    }
+    .profile-menu ul li {
+        width: 23vw;
+    }
+    .profile-intro p {
+        padding-left: 40px;
+        margin-left: 0;
+    }
+    .item-container-top {
+        height: 230px;
+    }
+    .item-container-top a .item-img {
+        height: 230px;
+    }
+    .profile-content .item-card-wrapper {
+        max-width: 50%;
+    }
+    .button-on-pic {
+        top: 20%;
+    }
+    .button-on-pic a {
+        width: 55%;
+        margin: 6px 12px;
+    }
+}

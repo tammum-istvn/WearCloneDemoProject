@@ -1,0 +1,29 @@
+#pay {
+    width: 100%;
+}
+
+.total {
+    border-top: 1px dotted;
+    padding-top: 5px;
+}
+
+.product figure {
+    max-width: 80px;
+}
+
+.item-size button {
+    height: 25px;
+    padding: 0px;
+}
+
+.quantity {
+    min-width: 130px;
+}
+
+.quantity .fas {
+    font-size: x-small;
+}
+
+.btn-disabled {
+    pointer-events: none;
+}
